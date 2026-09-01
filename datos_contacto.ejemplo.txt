@@ -1,0 +1,64 @@
+﻿# ==============================================================================
+# FICHA DE CONTACTO PARA GENERAR CÓDIGO QR (vCard 3.0)
+# ==============================================================================
+# Instrucciones:
+# - Llena los campos con tus datos.
+# - Si dejas un campo vacío después del '=', el código QR NO escribirá nada
+#   de ese campo, manteniendo tu código QR lo más compacto y rápido posible.
+# - Las líneas que empiezan con '#' son comentarios explicativos.
+# ==============================================================================
+
+# --- 1. IDENTIDAD Y NOMBRE ---
+NOMBRE = TuNombre
+SEGUNDO_NOMBRE = 
+APELLIDOS = TuApellido
+PREFIJO =                             # Ejemplos: Ing., Lic., Dr., Mtro.
+SUFIJO =                              # Ejemplos: Jr., PhD, II
+NOMBRE_COMPLETO = TuNombre TuApellido # Nombre visible en la tarjeta
+APODO = 
+
+# --- 2. INFORMACIÓN PROFESIONAL ---
+PUESTO = Tu Puesto o Especialidad
+EMPRESA = Tu Empresa u Organización
+DEPARTAMENTO = 
+ROL = 
+
+# --- 3. TELÉFONOS ---
+TELEFONO_CELULAR = +521234567890      # Teléfono con código de país (+52...)
+TELEFONO_TRABAJO = 
+TELEFONO_CASA = 
+TELEFONO_WHATSAPP = 
+
+# --- 4. CORREOS ELECTRÓNICOS ---
+EMAIL_PERSONAL = tu_correo@gmail.com
+EMAIL_TRABAJO = 
+
+# --- 5. UBICACIÓN / DIRECCIÓN ---
+CALLE_Y_NUMERO = 
+COLONIA_BARRIO = 
+CIUDAD = Tu Ciudad
+ESTADO_PROVINCIA = Tu Estado
+CODIGO_POSTAL = 
+PAIS = Tu País
+
+# --- 6. SITIOS WEB Y REDES SOCIALES ---
+LINKEDIN = https://www.linkedin.com/in/tu-perfil
+GITHUB = https://github.com/tu-usuario
+SITIO_WEB_PERSONAL = 
+PORTAFOLIO = 
+TWITTER_X = 
+INSTAGRAM = 
+FACEBOOK = 
+YOUTUBE = 
+CALENDLY = 
+
+# --- 7. NOTA / PERFIL PROFESIONAL ---
+NOTA_DESCRIPCION = Breve extracto o resumen de tu perfil profesional.
+
+# --- 8. FECHA DE CUMPLEAÑOS (Opcional, Formato: AAAA-MM-DD) ---
+CUMPLEANOS = 
+
+# --- 9. CONFIGURACIÓN VISUAL DEL CÓDIGO QR ---
+BOX_SIZE = 6
+BORDE = 2
+ARCHIVO_SALIDA_QR = output/mi_contacto_qr.png

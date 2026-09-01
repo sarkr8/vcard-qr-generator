@@ -1,0 +1,17 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.env
+.venv/
+env/
+venv/
+
+# Salidas generadas (opcional si se desea ignorar imágenes de salida de pruebas)
+# output/*.png
+# !output/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp

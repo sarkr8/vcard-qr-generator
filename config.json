@@ -1,0 +1,26 @@
+﻿{
+  "first_name": "Hiram",
+  "last_name": "Martínez",
+  "formatted_name": "Hiram Martínez",
+  "title": "Desarrollador Backend Java",
+  "organization": "Desarrollo de Software",
+  "department": "Backend & Cloud",
+  "phone": "+527444397436",
+  "email": "hirammartinez1995@gmail.com",
+  "city": "CDMX",
+  "country": "México",
+  "websites": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hiram-martinez-8657693b7"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/sarkr8"
+    }
+  ],
+  "note": "Desarrollador Backend Java - Microservicios, APIs REST y bases de datos.",
+  "box_size": 6,
+  "border": 2,
+  "output_filename": "output/qr_hiram_contacto.png"
+}

@@ -1,0 +1,25 @@
+﻿{
+  "first_name": "Nombre",
+  "last_name": "Apellido",
+  "formatted_name": "Nombre Apellido",
+  "title": "Tu Puesto / Rol Profesional",
+  "organization": "Tu Empresa / Especialidad",
+  "phone": "+521234567890",
+  "email": "tu_correo@example.com",
+  "city": "Tu Ciudad",
+  "country": "Tu País",
+  "websites": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tu-usuario"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/tu-usuario"
+    }
+  ],
+  "note": "Breve descripción o extracto de tu perfil profesional.",
+  "box_size": 6,
+  "border": 2,
+  "output_filename": "output/mi_contacto_qr.png"
+}

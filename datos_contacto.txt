@@ -1,0 +1,66 @@
+﻿# ==============================================================================
+# FICHA DE CONTACTO PARA GENERAR CÓDIGO QR (vCard 3.0)
+# ==============================================================================
+# Instrucciones:
+# - Llena los campos con tus datos.
+# - Si dejas un campo vacío después del signo '=', el código QR NO escribirá nada
+#   de ese campo, manteniendo tu código QR lo más compacto y rápido de escanear.
+# - Las líneas que empiezan con '#' son comentarios explicativos.
+# ==============================================================================
+
+# --- 1. IDENTIDAD Y NOMBRE ---
+NOMBRE = XXXXXXX
+SEGUNDO_NOMBRE = XXXXXXX
+APELLIDOS = XXXXXXX
+PREFIJO = XXXXXXX                            # Ejemplos: Ing., Lic., Dr., Mtro.
+SUFIJO = XXXXXXX                             # Ejemplos: Jr., PhD, II
+NOMBRE_COMPLETO = XXXXXXX      # Nombre visible en la tarjeta
+APODO = XXXXXXX
+
+# --- 2. INFORMACIÓN PROFESIONAL ---
+PUESTO = XXXXXXX                      # Cargo o título profesional
+EMPRESA = XXXXXXX      # Nombre de tu empresa o área
+DEPARTAMENTO = XXXXXXX        # Departamento o división
+ROL = XXXXXXX          # Rol específico
+
+# --- 3. TELÉFONOS ---
+TELEFONO_CELULAR = XXXXXXX      # Móvil principal con lada internacional (+52...)
+TELEFONO_TRABAJO = 
+TELEFONO_CASA = 
+TELEFONO_WHATSAPP = XXXXXXX     # Enlace directo de WhatsApp
+
+# --- 4. CORREOS ELECTRÓNICOS ---
+EMAIL_PERSONAL = XXXXXXX
+EMAIL_TRABAJO = 
+
+# --- 5. UBICACIÓN / DIRECCIÓN ---
+CALLE_Y_NUMERO = 
+COLONIA_BARRIO = 
+CIUDAD = XXXXXXX
+ESTADO_PROVINCIA = XXXXXXX
+CODIGO_POSTAL = 
+PAIS = XXXXXXX
+
+# --- 6. SITIOS WEB Y REDES SOCIALES ---
+LINKEDIN = XXXXXXX
+GITHUB = XXXXXXX
+SITIO_WEB_PERSONAL = 
+PORTAFOLIO = 
+TWITTER_X = 
+INSTAGRAM = 
+FACEBOOK = 
+YOUTUBE = 
+CALENDLY = 
+
+# --- 7. NOTA / PERFIL PROFESIONAL ---
+NOTA_DESCRIPCION = XXXXXXX
+
+# --- 8. FECHA DE CUMPLEAÑOS (Opcional, Formato: AAAA-MM-DD) ---
+CUMPLEANOS = 
+
+# --- 9. CONFIGURACIÓN VISUAL DEL CÓDIGO QR ---
+# BOX_SIZE : Tamaño de píxeles por bloque (6 es ideal para insertar en CV en Word/PDF)
+# BORDE    : Margen exterior en bloques (2 es compacto y estético)
+BOX_SIZE = 6
+BORDE = 2
+ARCHIVO_SALIDA_QR = output/qr_contacto.png
